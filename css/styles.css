@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: rgb(3, 20, 172);
+    overflow: auto;
+    line-height: 2.4em;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header nav h1{
+    float: left;
+    display: block;
+    padding: 25px;
+}
+
+.header nav ul{
+    float: right;
+    overflow: hidden;
+    list-style: none;
+}
+
+.header nav ul li{
+    float: left;
+}
+
+.header nav ul li a{
+    padding: 25px;
+    display: block;
+    display: block;
+    transition: background 0.3s;
+}
+
+.header nav ul li:hover{
+    background-color: rgb(133, 169, 154);
+}
+
+
+
+/* catalogue */
+
+.catalogue{
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.catalogue h2{
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* Barre de recherche */
+.search-bar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+    outline: none;
+}
+
+.search-bar button{
+    padding: 10px 15px;
+    border: none;
+    background: #5aa1ff;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar button:hover{
+    background: #3578e5;
+}
+
+/* Boutons de tri */
+.filters{
+    margin: center;
+    margin-bottom: 30px;
+}
+
+.filters button{
+    margin: 0 5px;
+    padding: 8px 15px;
+    border: none;
+    background:rgb(3, 20, 172);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filters button:hover{
+    background: #5aa1ff;
+}
+
+/* Grille */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.anime-card{
+    background:rgb(0, 10, 101) ;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, ease;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+   
+}
+
+.anime-card img{
+    width: 190px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* .anime-card:hover img{
+    transform: scale(1.1);
+} */
+
+.anime-card h3,
+.anime-card p
+.anime-card span{
+    padding: 5px;
+}
+
+.anime-card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+

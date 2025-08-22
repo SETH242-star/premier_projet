@@ -38,10 +38,18 @@ body {
   margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
 .search-section input {
   padding: 10px;
   border-radius: 6px;
   border: 1px solid #ccc;
+=======
+.header nav ul li a{
+    padding: 25px;
+    display: block;
+    display: block;
+    transition: background-color 0.3s ease;
+>>>>>>> 36445628d7919ae97fc845ace515c56a2eab33a3
 }
 
 .filters button {
@@ -201,4 +209,99 @@ body {
   margin-top: 20px;
   font-weight: bold;
 }
+<<<<<<< HEAD
     
+=======
+
+.anime-card{
+    background:rgb(0, 10, 101) ;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, ease;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+   
+}
+
+.anime-card img{
+    width: 190px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* .anime-card:hover img{
+    transform: scale(1.1);
+} */
+
+.anime-card h3,
+.anime-card p
+.anime-card span{
+    padding: 5px;
+}
+
+.anime-card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.content{
+    display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.content1{
+    background:rgb(0, 101, 13) ;
+    border-radius: 100px;
+    overflow: hidden;
+    transition: transform 0.3s, ease;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+   
+}
+.content2{
+    background:rgb(247, 234, 2) ;
+    border-radius: 100px;
+    overflow: hidden;
+    transition: transform 0.3s, ease;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+   
+}
+
+.content3{
+    background:rgb(233, 4, 4) ;
+    border-radius: 100px;
+    overflow: hidden;
+    transition: transform 0.3s, ease;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+   
+}
+.index{
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+ .content1:hover{
+     transform: scale(1.05);
+    cursor: pointer;
+}
+
+ .content2:hover{
+     transform: scale(1.05);
+    cursor: pointer;
+}
+
+ .content3:hover{
+     transform: scale(1.05);
+    cursor: pointer;
+}
+
+>>>>>>> 36445628d7919ae97fc845ace515c56a2eab33a3

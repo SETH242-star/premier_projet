@@ -42,7 +42,7 @@ html,body{
     padding: 25px;
     display: block;
     display: block;
-    transition: background 0.3s;
+    transition: background-color 0.3s ease;
 }
 
 .header nav ul li:hover{
@@ -150,6 +150,64 @@ html,body{
 
 .anime-card:hover{
     transform: scale(1.05);
+    cursor: pointer;
+}
+
+.content{
+    display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.content1{
+    background:rgb(0, 101, 13) ;
+    border-radius: 100px;
+    overflow: hidden;
+    transition: transform 0.3s, ease;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+   
+}
+.content2{
+    background:rgb(247, 234, 2) ;
+    border-radius: 100px;
+    overflow: hidden;
+    transition: transform 0.3s, ease;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+   
+}
+
+.content3{
+    background:rgb(233, 4, 4) ;
+    border-radius: 100px;
+    overflow: hidden;
+    transition: transform 0.3s, ease;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+   
+}
+.index{
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+ .content1:hover{
+     transform: scale(1.05);
+    cursor: pointer;
+}
+
+ .content2:hover{
+     transform: scale(1.05);
+    cursor: pointer;
+}
+
+ .content3:hover{
+     transform: scale(1.05);
     cursor: pointer;
 }
 

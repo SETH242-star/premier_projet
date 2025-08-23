@@ -34,7 +34,7 @@ const animeData = [
     { title: "Blood Lad", image: "img/blood_lad.jpg", description: "Vampire fan de culture japonaise" },
     { title: "Demon Slayer", image: "img/demon_slayer.jpg", description: "Chasseur de démons en mission" },
     { title: "Attack on Titan", image: "img/snk.jpg", description: "Combat contre les titans" },
-    { title: "My Hero Academia", image: "img/mha-thumb.jpg", description: "École de super-héros" },
+    { title: "CYBERPUNK EDGERUNNERS", image: "img/cyberpunk_edgerunners.jpg", description: "École de super-héros" },
     { title: "Jujutsu Kaisen", image: "img/jujutsu-thumb.jpg", description: "Exorcisme moderne" },
     { title: "One Piece", image: "img/one_piece.jpg", description: "Aventure pirate épique" },
     { title: "Naruto", image: "img/naruto-thumb.jpg", description: "Ninja en formation" },

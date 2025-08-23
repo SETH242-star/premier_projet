@@ -5,18 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime-Zone</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <nav>
-            <h1><a href="index.html" translate="no">Anime-Zone</a></h1>
+    <!-- Navigation -->
+     <header class="header">
+        <nav class="nav-container">
+            <h1 class="logo"><a href="index.html" translate="no">Anime-Zone </a></h1>
             <ul>
                 <li><a href="Catalogue.html">Catalogue</a></li>
+                <li><a href="#">Nouveautés</a></li>
                 <li><a href="Planning.html">Planning</a></li>
-                <li><a href="Aide.html">Aide</a></li>
-                <li><a href="Profil.html">Profil</a></li>
+                <li><a href="#">Communauté</a></li>
             </ul>
+            <div class="nav-action">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Rechercher un animé...">
+                </div>
+                <a href="#" class="login-btn">Connexion</a>
+            </div>
         </nav>
-    </header>
+     </header>
+
+    <main>
+        <!-- Bannière principale -->
+         <section class="banner">
+            <div class="banner-content">
+                <img id="banner-logo" src="img/blood_lad.jpg" alt="logo anime" class="banner-logo">
+                <div class="banner-info">
+                    <span class="age-rating" id="banner-age">16+</span>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <span>4.8</span>
+                    </div>
+                    <span>Comédie • Fantasy</span>
+                </div>
+                <p class="description" id="banner-description">
+                   taz C. Vlad est un vampire pas tout à fait comme les autres
+                </p>
+                <div class="banner-buttons">
+                    <a id="banner-link" href="#" class="btn"><i class="fas fa-play"></i>Lecture</a>
+                    <button class="btn secondary"><i class="fas fa-plus"></i>Ma liste</button>
+                </div>
+               <div class="banner-dots" id="banner-dots"></div>
+            </div>
+            <div class="banner-image">
+                <img id="banner-image" src="img/blood_lad_banner.jpg" alt="Anime Image">
+                <div class="banner-overlay"></div>
+            </div>
+         </section>
+         <!-- Sections d'animés -->
+        <section class="anime-section">
+            <h2 class="section-title">Nouveaux épisodes</h2>
+            <div class="anime-grid" id="new-episodes">
+                <!-- Contenu généré par JavaScript -->
+            </div>
+        </section>
+
+        <section class="anime-section">
+            <h2 class="section-title">Populaire cette semaine</h2>
+            <div class="anime-grid" id="popular-anime">
+                <!-- Contenu généré par JavaScript -->
+            </div>
+        </section>
+
+        <section class="anime-section">
+            <h2 class="section-title">Recommandé pour vous</h2>
+            <div class="anime-grid" id="recommended-anime">
+                <!-- Contenu généré par JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Anime-Zone</h3>
+                <p>La meilleure plateforme pour regarder vos animés préférés en streaming.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="Catalogue.html">Catalogue</a></li>
+                    <li><a href="Nouveautes.html">Nouveautés</a></li>
+                    <li><a href="Planning.html">Planning</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Informations</h3>
+                <ul>
+                    <li><a href="Aide.html">Centre d'aide</a></li>
+                    <li><a href="Conditions.html">Conditions d'utilisation</a></li>
+                    <li><a href="Confidentialite.html">Politique de confidentialité</a></li>
+                    <li><a href="Cookies.html">Préférences de cookies</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Compte</h3>
+                <ul>
+                    <li><a href="Profil.html">Mon compte</a></li>
+                    <li><a href="Abonnement.html">Abonnement</a></li>
+                    <li><a href="Favoris.html">Mes favoris</a></li>
+                    <li><a href="Historique.html">Historique</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Anime-Zone. Tous droits réservés.</p>
+        </div>
+    </footer>  
+    <script src="script/script.js"></script>
 </body>
 </html>

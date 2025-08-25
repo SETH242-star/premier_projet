@@ -7,7 +7,11 @@ const banners = [
         image: "img/blood_lad_banner.jpg",
         link: "#",
         genres: "Comédie • Fantasy",
-        rating: 4.8
+        rating: 4.8,
+        episodes:"10 épisodes",
+        status:"Série complétée",
+        saison:"1 saison"
+
     },
     {
         logo: "img/demon_slayer.jpg",
@@ -16,7 +20,10 @@ const banners = [
         image: "img/demon_slayer_banner.jpg",
         link: "#",
         genres: "Action • Aventure",
-        rating: 4.9
+        rating: 4.9,
+        episodes:"24 épisodes",
+        status:"Série en cours",
+        saison:"3 saison"
     },
     {
         logo: "img/snk.jpg",
@@ -25,8 +32,26 @@ const banners = [
         image: "img/snk_banner.jpg",
         link: "#",
         genres: "Action • Drame",
-        rating: 4.7
+        rating: 4.7,
+        episodes:"89 épisodes",
+        status:"Série complétée",
+        saison:"4 saison"
+    },
+    
+     {
+        logo: "img/the_dangers_in_my_heart.jpg",
+        age: "18+",
+        description: "Kyotaro Ichikawa est un garçon qui pense être secrètement le personnage principal torturé d'un thriller psychologique. Il passe ses journées à observer ses camarades de classe et en particulier Anna Yamada.",
+        image: "img/the_dangers_in_my_heart_banner.jpg",
+        link: "#",
+        genres: "Romance • School-life • Comédie ",
+        rating: 4.7,
+        episodes:"12 épisodes",
+        status:"Série complétée",
+        saison:"1 saison"
     }
+
+
 ];
 
 // Données des animés
